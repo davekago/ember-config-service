@@ -1,0 +1,16 @@
+ul
+  = each-in config as |key value|
+    li
+      = key
+      '
+      ' =
+      = value
+
+h4 Feature Toggles
+ul
+  = each-in features as |key value|
+    li
+      = key
+      '
+      ' =
+      = value

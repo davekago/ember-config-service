@@ -1,0 +1,6 @@
+h2
+  = link-to 'Config Service' 'application'
+ul
+  li
+    = link-to 'Configuration' 'config'
+== outlet
